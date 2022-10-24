@@ -917,7 +917,7 @@ fill: var(--brand-color);
 
 .site-link.active::after {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     content: " ";
     display: block;
     width: 100%;
@@ -1005,6 +1005,12 @@ fill: var(--brand-color);
 
 }
 
+.is-hidden {
+    visibility: hidden;
+    scale: 0;    
+    cursor: pointer;
+}
+
 .backdrop {
     position: fixed;
     left: 0;
@@ -1028,10 +1034,13 @@ fill: var(--brand-color);
     left: 0;
     margin: auto;
     width: 528px;
-    height: 521px;
+    height: 581px;
     background-color: var(--background);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    
+    
+
 }
 
 .modal-close-button {
