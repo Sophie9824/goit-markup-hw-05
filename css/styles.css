@@ -664,6 +664,7 @@ fill: var(--brand-color);
 .contact-link:focus {
     fill: var(--brand-color);
     color: var(--brand-color);
+}
 
 .phone-icon {   
    margin-right: 10px;
