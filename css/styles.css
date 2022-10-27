@@ -146,7 +146,7 @@ li {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition-property: all;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    }
@@ -768,6 +768,7 @@ fill: var(--brand-color);
     height: 92px;
     justify-content: center;
     align-items: center;
+    border: var(--social-link-color);
    
 }
 
@@ -904,7 +905,7 @@ fill: var(--brand-color);
 
 }
 
-.project-link:hover .overlay {
+.project-link:hover .overlay-content {
     transform: translateY(0);
 }
 
